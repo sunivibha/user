@@ -10,15 +10,15 @@ pipeline {
     }
 
     stage('Test Cases') {
-          steps {
-            echo 'Test Cases'
-          }
+      steps {
+        echo 'Test Cases'
+      }
     }
 
     stage('Publish A Release') {
-              steps {
-                echo 'Publish A Release'
-              }
-        }
+      steps {
+        echo 'Publish A Release'
+      }
+    }
   }
 }
